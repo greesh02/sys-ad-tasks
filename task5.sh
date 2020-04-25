@@ -422,7 +422,7 @@ echo "--------------------------------------------------------------------------
      fi
 #Army2 ==================================================================
 
-elif [[ $troopname == "Army" ]]&&[[ $USER == "x-code" ]]
+elif [[ $troopname == "Army" ]]&&[[ $USER == "ChiefCommander" ]]
 then
     grep Army attendance.log > .Armytroops2.log #.Armytroops1.log
     #grep YES .Armytroops1.log > .Armytroops2.log
@@ -1610,7 +1610,7 @@ echo "--------------------------------------------------------------------------
      fi
 #Navy2 ================================================================
 
-elif [[ $troopname == "Navy" ]]&&[[ $USER == "x-code" ]]
+elif [[ $troopname == "Navy" ]]&&[[ $USER == "ChiefCommander" ]]
 then
     grep Navy attendance.log > .Navytroops2.log #.Navytroops1.log
     #grep YES .Navytroops1.log > .Navytroops2.log
@@ -2796,7 +2796,7 @@ echo "--------------------------------------------------------------------------
      fi
 #Airforce2 ==============================================
 
-elif [[ $troopname == "AirForce" ]]&&[[ $USER == "x-code" ]]
+elif [[ $troopname == "AirForce" ]]&&[[ $USER == "ChiefCommander" ]]
 then
     grep AirForce attendance.log > .Airforcetroops2.log #.Airforcetroops1.log
     #grep YES .Airforcetroops1.log > .Airforcetroops2.log
